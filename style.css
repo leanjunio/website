@@ -1,0 +1,52 @@
+body > * {
+  font-family: 'Inter', "Inter Placeholder", sans-serif;
+  font-style: normal;
+  color: black;
+}
+
+body {
+  padding: 3.5rem 2rem;
+  margin: 0 auto;
+  max-width: 50rem;
+}
+
+nav {
+  display: flex;
+  gap: 1em;
+  margin: 1rem 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #898989;
+  font-weight: 500;
+}
+
+.nav__link-visited {
+  color: black;
+}
+
+main {
+  margin: 2em 0;
+}
+
+main > p {
+  margin: 2em 0;
+  font-weight: 400;
+  font-size: 0.9em;
+  line-height: 1.2rem;
+}
+
+footer {
+  display: flex;
+  gap: 1em;
+}
+
+.footer__link {
+  color: black;
+  text-decoration: underline;
+}
